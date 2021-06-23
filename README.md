@@ -14,12 +14,16 @@ Run two separate docker containers for server and client
 ## Build
 
 ```bash
+cd mnt
 cmake -B build
 ```
 ```bash
 cmake --build build --config Release --parallel
 ```
-
+If you have problem with building, use this command to copy abseil-cpp files in /include directory
+```bash
+cp -r /tmp/grpc/third_party/abseil-cpp/absl /include
+```
 ## Run project
 ```bash
 ./build/grpc/calculator/calculator_server
