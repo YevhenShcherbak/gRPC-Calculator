@@ -33,5 +33,5 @@ cp -r /tmp/grpc/third_party/abseil-cpp/absl /include
 ./build/grpc/calculator/calculator_client
 ```
 
-## Thanks to Leo Mai for examples
+## Thanks to Le Mao for examples
 https://github.com/leimao/gRPC-Examples
