@@ -1,0 +1,8 @@
+/mnt/build/CMakeFiles/rebuild_cache.dir
+/mnt/build/CMakeFiles/edit_cache.dir
+/mnt/build/grpc/CMakeFiles/rebuild_cache.dir
+/mnt/build/grpc/CMakeFiles/edit_cache.dir
+/mnt/build/grpc/calculator/CMakeFiles/edit_cache.dir
+/mnt/build/grpc/calculator/CMakeFiles/calculator_client.dir
+/mnt/build/grpc/calculator/CMakeFiles/rebuild_cache.dir
+/mnt/build/grpc/calculator/CMakeFiles/calculator_server.dir

@@ -1,0 +1,28 @@
+// [START declaration]
+syntax = "proto3";
+// Namespace
+package calculator;
+// [END declaration]
+
+// [START service]
+// The arithmetic service definition.
+service Calculator {
+    rpc Add (TwoValueRequest) returns (OneValueReply) {}
+    rpc Minus (TwoValueRequest) returns (OneValueReply) {}
+    rpc Multiply (TwoValueRequest) returns (OneValueReply) {}
+    rpc Divide (TwoValueRequest) returns (OneValueReply) {}
+}
+// [END service]
+
+// [START messages]
+// The request message containing two double values.
+message TwoValueRequest {
+    double a = 1;
+    double b = 2;
+}
+
+// The response message containing one double value.
+message OneValueReply {
+    double c = 1;
+}
+// [END messages]
